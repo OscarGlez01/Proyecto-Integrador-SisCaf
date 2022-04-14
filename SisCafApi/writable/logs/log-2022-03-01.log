@@ -1,0 +1,18 @@
+CRITICAL - 2022-03-01 09:13:39 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\laragon\www\gym\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('1', 'update')
+#1 C:\laragon\www\gym\system\Model.php(651): CodeIgniter\BaseModel->update(Array, '1')
+#2 C:\laragon\www\gym\app\Controllers\Cliente.php(89): CodeIgniter\Model->update(Array, '1')
+#3 C:\laragon\www\gym\system\CodeIgniter.php(825): App\Controllers\Cliente->update('1')
+#4 C:\laragon\www\gym\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#5 C:\laragon\www\gym\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\gym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-01 09:15:02 --> Return value of CodeIgniter\BaseModel::transformDataToArray() must be of the type array, string returned
+#0 C:\laragon\www\gym\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray('1', 'update')
+#1 C:\laragon\www\gym\system\Model.php(651): CodeIgniter\BaseModel->update(Array, '1')
+#2 C:\laragon\www\gym\app\Controllers\Cliente.php(90): CodeIgniter\Model->update(Array, '1')
+#3 C:\laragon\www\gym\system\CodeIgniter.php(825): App\Controllers\Cliente->update('1')
+#4 C:\laragon\www\gym\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#5 C:\laragon\www\gym\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\gym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

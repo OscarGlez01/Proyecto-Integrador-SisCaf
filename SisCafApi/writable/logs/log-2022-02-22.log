@@ -1,0 +1,16 @@
+CRITICAL - 2022-02-22 08:44:15 --> json_encode() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_encode() e...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\gym\app\Controllers\Cliente.php(15): json_encode()
+#2 C:\laragon\www\gym\system\CodeIgniter.php(825): App\Controllers\Cliente->index()
+#3 C:\laragon\www\gym\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#4 C:\laragon\www\gym\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\gym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-22 08:45:18 --> json_encode() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_encode() e...', 'C:\\laragon\\www\\...', 15, Array)
+#1 C:\laragon\www\gym\app\Controllers\Cliente.php(15): json_encode()
+#2 C:\laragon\www\gym\system\CodeIgniter.php(825): App\Controllers\Cliente->index()
+#3 C:\laragon\www\gym\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#4 C:\laragon\www\gym\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\gym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

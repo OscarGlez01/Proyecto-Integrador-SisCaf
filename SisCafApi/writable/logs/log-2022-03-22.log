@@ -1,0 +1,6 @@
+CRITICAL - 2022-03-22 10:15:21 --> Call to undefined function App\Controllers\EntrenadorModel()
+#0 C:\laragon\www\gym\system\CodeIgniter.php(825): App\Controllers\Auth->create()
+#1 C:\laragon\www\gym\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\laragon\www\gym\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\gym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

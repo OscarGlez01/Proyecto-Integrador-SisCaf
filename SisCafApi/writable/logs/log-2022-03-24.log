@@ -1,0 +1,53 @@
+CRITICAL - 2022-03-24 09:21:45 --> Call to undefined function App\Controllers\EntrenadorModel()
+#0 C:\laragon\www\gym\system\CodeIgniter.php(825): App\Controllers\Auth->create()
+#1 C:\laragon\www\gym\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\laragon\www\gym\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\gym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-24 09:24:55 --> Call to undefined function App\Controllers\EntrenadorModel()
+#0 C:\laragon\www\gym\system\CodeIgniter.php(825): App\Controllers\Auth->create()
+#1 C:\laragon\www\gym\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\laragon\www\gym\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\gym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-24 09:36:43 --> Call to undefined function App\Controllers\now()
+#0 C:\laragon\www\gym\system\CodeIgniter.php(825): App\Controllers\Auth->create()
+#1 C:\laragon\www\gym\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\laragon\www\gym\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\gym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-24 09:40:21 --> Class 'App\Controllers\Service' not found
+#0 C:\laragon\www\gym\app\Controllers\Cliente.php(40): App\Controllers\Auth->verifyToken()
+#1 C:\laragon\www\gym\system\CodeIgniter.php(825): App\Controllers\Cliente->create()
+#2 C:\laragon\www\gym\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 C:\laragon\www\gym\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\gym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-24 09:41:25 --> Class 'App\Controllers\Service' not found
+#0 C:\laragon\www\gym\app\Controllers\Cliente.php(19): App\Controllers\Auth->verifyToken()
+#1 C:\laragon\www\gym\system\CodeIgniter.php(825): App\Controllers\Cliente->index()
+#2 C:\laragon\www\gym\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 C:\laragon\www\gym\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\gym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-24 09:43:38 --> Call to a member function getValue() on null
+#0 C:\laragon\www\gym\app\Controllers\Cliente.php(19): App\Controllers\Auth->verifyToken()
+#1 C:\laragon\www\gym\system\CodeIgniter.php(825): App\Controllers\Cliente->index()
+#2 C:\laragon\www\gym\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+#3 C:\laragon\www\gym\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\gym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-24 09:54:54 --> Undefined variable: ClienteModel
+#0 C:\laragon\www\gym\app\Controllers\Auth.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 60, Array)
+#1 C:\laragon\www\gym\system\CodeIgniter.php(825): App\Controllers\Auth->create()
+#2 C:\laragon\www\gym\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\laragon\www\gym\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\gym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-24 09:55:21 --> Undefined variable: usuario
+#0 C:\laragon\www\gym\app\Controllers\Auth.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 60, Array)
+#1 C:\laragon\www\gym\system\CodeIgniter.php(825): App\Controllers\Auth->create()
+#2 C:\laragon\www\gym\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\laragon\www\gym\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\gym\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
