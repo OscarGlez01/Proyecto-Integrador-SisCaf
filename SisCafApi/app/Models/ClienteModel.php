@@ -12,24 +12,17 @@ class ClienteModel extends Model{
     protected $allowedFields = [
         "id",
         "nombre",
-        "apellidos",
-        "telefono",
         "correo",
-        "contrasena",
-        "entrenador_id",
-        "gimnasio_id",
-        "dia_pago",
-        "fecha_inicio",
-        "estado"
+        "contrasena"
     ];
 
     public function login($user, $password){
         $result = $this->asArray()->
             where([
-                "telefono"=>$user,
+                "correo"=>$user,
                 "contrasena"=>$password
             ]) ->orWhere([
-                "correo"=>$user,
+                "nombre"=>$user,
                 "contrasena"=>$password
             ])->first();
             
